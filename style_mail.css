@@ -207,3 +207,12 @@ margin-top: -16%;
   margin-left: 35%;
   width: 25%;
 }
+#eliminar{
+float: left;
+margin-top: 12%;
+margin-left: 5%;
+
+}
+#selecteditem{
+  background-color: #3399FF;
+}
