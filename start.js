@@ -1,8 +1,8 @@
 function validarnuevo(){
 	var field=document.getElementById('correo').value;
-	if (field.includes("@")) 
+	if (field.includes("@drumail.com")) 
 	{
-window.location = "file:///C:/Users/Alvaro/Desktop/Proyecto%20Web/login.html";
+window.location = "file:///C:/Users/Alvaro/Desktop/Proyecto%20Web/redireccion.html";
 return;
 	};
 	alert("Está mamando");
@@ -10,7 +10,7 @@ return;
 
 function validarlogin(){
 	var field=document.getElementById('correo').value;
-	if (field.includes("@")) 
+	if (field.includes("@drumail.com")) 
 	{
 		alert("Bienvenido");
 window.location = "file:///C:/Users/Alvaro/Desktop/Proyecto%20Web/principal_salida.html";
