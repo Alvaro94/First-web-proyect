@@ -187,7 +187,7 @@ function setEditarData() {
 }
 
 $('#mover_correo').click(function() {
-
+debugger;
   var id = $('#mover_correo').data('id');
 
   var salida = getSalida();
