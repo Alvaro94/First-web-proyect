@@ -4,6 +4,7 @@
     <title></title>
     <meta charset="utf-8">
    <link type="text/css" rel="stylesheet" href="file:///C:/Users/Alvaro/Desktop/Dise%C3%B1o%20Web/web/bootstrap-3.3.5-dist/css/bootstrap.css"/>
+    <script type="text/javascript" src="file:///C:/Users/Alvaro/Desktop/Proyecto%20Web/js/jquery.min.js"></script>
    <link type="text/css" rel="stylesheet" href="style_mail.css"/>
     <link rel="stylesheet" href="menu/reset.css" type="text/css" media="screen">
     <link rel="stylesheet" href="menu/style.css" type="text/css" media="screen">
@@ -38,6 +39,7 @@
    <li><a href="file:///C:/Users/Alvaro/Desktop/Proyecto%20Web/editar.html#"> editar</a></li>
    </ul>
    </div>                     
+
    <div class="clear"></div>
    </div>
     <form id="search" class="searchform cf">
@@ -52,46 +54,26 @@
    </div>
    </section>
 <div id="div-table">
- <table id="table">
+ <table id="tEnviados">
+ <thead>
 <tr>
-
-  <th id="b2"><strong>Remitente</strong></th>
+  <th id="b2"><strong>Destino</strong></th>
+  <th id="b2"><strong>Asunto</strong></th>
   <th id="b2"><strong>Mensaje</strong></th>
   <th id="b2"><strong>Fecha</strong></th>
+  <th id="b2"><strong>Opciones</strong></th>
+
 </tr>
- 
-<tr>
-
-  <td id="b1">Ernesto</td>
-  <td id="b1">recuerde enviarme su parte del proyecto...</td>
-  <td id="b1">vie 6:09 p.m</td>
-    <td id="b1"> &nbsp <input type="image" src="https://cdn4.iconfinder.com/data/icons/miu-flat-social/60/mail-24.png" alt="Ver mail" onclick="window.location = 'file:///C:/Users/Alvaro/Desktop/Proyecto%20Web/vercorreo.html';"></td>
-</tr>
- 
-<tr> 
-
-  <td id="b1">San Carlos Technology Summit 2015</td>
-  <td id="b1">La charla de los drones estuvo...</td>
-  <td id="b1">mié 4:45 p.m</td>
-    <td id="b1"> &nbsp <input type="image" src="https://cdn4.iconfinder.com/data/icons/miu-flat-social/60/mail-24.png" alt="Ver mail" onclick="window.location = 'file:///C:/Users/Alvaro/Desktop/Proyecto%20Web/vercorreo.html';"></td>
-</tr>
- 
-<tr>
-
-  <td id="b1">Danilo Vargas</td>
-  <td id="b1">Profesor, aqui le adjunto el documento...</td>
-  <td id="b1">mié 14/10/2015</td>
-    <td id="b1"> &nbsp <input type="image" src="https://cdn4.iconfinder.com/data/icons/miu-flat-social/60/mail-24.png" alt="Ver mail" onclick="window.location = 'file:///C:/Users/Alvaro/Desktop/Proyecto%20Web/vercorreo.html';"></td>
-</tr>
+ </thead>
+<tbody>
+  
+</tbody>
+</table>
 
 
-</div>
-
-</table id="eliminar">
-<div >
-
-</div>
-
-<a id="eliminar" type="submit"class="btn btn-danger" href="file:///C:/Users/Alvaro/Desktop/Proyecto%20Web/eliminarenviados.html" role="button">Eliminar Todos</a>
 </body>
+ <script type="text/javascript" src="js/start.js"></script>
+ <script type="text/javascript">
+  imprimirEnviados();
+ </script>
 </html>

@@ -4,6 +4,7 @@
     <title></title>
     <meta charset="utf-8">
    <link type="text/css" rel="stylesheet" href="file:///C:/Users/Alvaro/Desktop/Dise%C3%B1o%20Web/web/bootstrap-3.3.5-dist/css/bootstrap.css"/>
+   <script type="text/javascript" src="file:///C:/Users/Alvaro/Desktop/Proyecto%20Web/js/jquery.min.js"></script>
 <link type="text/css" rel="stylesheet" href="style_mail.css"/>
 <link rel="stylesheet" href="menu/reset.css" type="text/css" media="screen">
     <link rel="stylesheet" href="menu/style.css" type="text/css" media="screen">
@@ -31,7 +32,6 @@
    <li><a href="#">redactar</a></li>
    <li><a href="file:///C:/Users/Alvaro/Desktop/Proyecto%20Web/enviados.html">enviados</a></li>
    <li><a href="file:///C:/Users/Alvaro/Desktop/Proyecto%20Web/vercorreo.html">Ver Correo</a></li>
-
    <li><a href="#"> eliminados</a></li>
    <li><a href="file:///C:/Users/Alvaro/Desktop/Proyecto%20Web/editar.html#"> editar</a></li>
    </ul>
@@ -55,20 +55,21 @@
  <div id="para" class="form-group">
     <label for="inputEmail3" class="col-sm-2 control-label">Para:</label>
     <div class="col-sm-10">
-      <input type="email" class="form-control" id="correo" placeholder="Para: ">
+      <input type="email" class="form-control" id="correo_destino" placeholder="Para: ">
        
     </div>
   </div>
   <div id="para" class="form-group">
     <label for="inputEmail3" class="col-sm-2 control-label">Asunto:</label>
     <div class="col-sm-10">
-      <input type="email" class="form-control" id="inputEmail3" placeholder="Asunto: ">
+      <input type="email" class="form-control" id="asunto" placeholder="Asunto: ">
     </div>
   </div>
-<textarea  class="form-control" rows="15"></textarea>
+<textarea  id="contenido" class="form-control" rows="15"></textarea>
 <br></br>
-<a onclick="validarenviarcorreo();" type="submit"class="btn btn-primary"  role="button" >Enviar</a>
+<button id="enviar_correo" type="submit"class="btn btn-primary" >Enviar</button>
+<button id="guardar_correo" type="submit"class="btn btn-primary" >Guardar</button>
 </div>
- <script type="text/javascript" src="file:///C:/Users/Alvaro/Desktop/Proyecto%20Web/start.js"></script>
+ <script type="text/javascript" src="js/start.js"></script>
 </body>
 </html>

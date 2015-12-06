@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="menu/style.css" type="text/css" media="screen">
     <link rel="stylesheet" href="menu/grid.css" type="text/css" media="screen">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+   <script type="text/javascript" src="file:///C:/Users/Alvaro/Desktop/Proyecto%20Web/js/jquery.min.js"></script>
+
 
 </head>
 <body>
@@ -50,24 +52,28 @@
    </section>
 
   
-<div id="table2">
- <div id="para" class="form-group">
+<div id="table">
+ <div  class="form-group">
     <label for="inputEmail3" class="col-sm-2 control-label">Para:</label>
     <div class="col-sm-10">
-      <input value="pinteres@pinterest.com" type="email" class="form-control" id="correo" placeholder="Para: ">
+      <input  type="text" class="form-control" id="destino" placeholder="Para: ">
        
     </div>
   </div>
-  <div id="para" class="form-group">
+  <div class="form-group">
     <label for="inputEmail3" class="col-sm-2 control-label">Asunto:</label>
     <div class="col-sm-10">
-      <input value="Pines" type="email" class="form-control" id="inputEmail3" placeholder="Asunto: ">
+      <input  type="text" class="form-control" id="asunto" placeholder="Asunto: ">
     </div>
   </div>
-<textarea  class="form-control" rows="15"> Hola Alvaro, no te pierdas estos Pines...</textarea>
+<textarea  class="form-control" rows="15" id="contenido"></textarea>
 <br></br>
-<a onclick="validarenviarcorreo();" type="submit"class="btn btn-primary"  role="button" >Enviar</a>
+<button id="mover_correo" type="submit"class="btn btn-primary" >Enviar</button>
 </div>
- <script type="text/javascript" src="file:///C:/Users/Alvaro/Desktop/Proyecto%20Web/start.js"></script>
+ 
 </body>
+<script type="text/javascript" src="js/start.js"></script>
+<script type="text/javascript">
+   setEditarData();
+</script>
 </html>
