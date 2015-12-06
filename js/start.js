@@ -25,7 +25,7 @@ $('#iniciar_sesion').click(function() {
     var registroUser = localStorage.getItem("correo");
     var registroPass = localStorage.getItem("password");
     if (user == registroUser && password == registroPass) {
-        return location = "principal_salidaenviar.html"
+        return location = "file:///C:/Users/Alvaro/Desktop/Proyecto%20Web/principal_salida.html"
     }
     window.alert("Usuario/contraseña incorrectos.. Algo puso mal");
 });
