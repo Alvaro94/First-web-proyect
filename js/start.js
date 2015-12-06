@@ -125,7 +125,7 @@ function imprimirSalida() {
       '<td id="b1">' + salida.contenido + '</td>' +
       '<td id="b1">' + salida.fecha + '</td>' +
       '<td id="b1"><button id="editar_correo_salida" data-id="' + salida.id +
-      '" class="">Editar</button><button id="eliminar_correo_salida" data-id="' +
+      '" class="" >Editar</button><button id="eliminar_correo_salida" data-id="' +
       salida.id + '" class="">Eliminar</button></td></tr>';
   });
 
